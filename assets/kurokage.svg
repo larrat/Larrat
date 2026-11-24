@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="210" viewBox="0 0 640 210" role="img" aria-labelledby="title desc">
+  <title id="title">Kurokage</title>
+  <desc id="desc">Arte conceitual original com uma lua e picos de montanha num céu escuro.</desc>
+  <defs>
+    <linearGradient id="sky" x2="1" y2="1">
+      <stop stop-color="#141029"/><stop offset="1" stop-color="#352647"/>
+    </linearGradient>
+    <linearGradient id="moon" x2="1" y2="1">
+      <stop stop-color="#ffd994"/><stop offset="1" stop-color="#ef956f"/>
+    </linearGradient>
+    <clipPath id="frame"><rect x="2" y="2" width="636" height="206" rx="17"/></clipPath>
+  </defs>
+  <rect x="1" y="1" width="638" height="208" rx="19" fill="url(#sky)" stroke="#664563" stroke-width="2"/>
+  <g clip-path="url(#frame)">
+    <circle cx="521" cy="81" r="53" fill="none" stroke="#eda983" stroke-opacity=".3"/>
+    <circle cx="521" cy="81" r="44" fill="url(#moon)"/>
+    <path d="M464 69h104m-103 12h89m-84 13h98" stroke="#492d4c" stroke-opacity=".36" stroke-width="2"/>
+    <path d="m319 186 96-82 34 29 26-22 37 31 44-51 84 84v35H319z" fill="#74516f"/>
+    <path d="m295 207 93-41 23 12 32-53 49 43 36-19 32 23 41-26 39 28v36z" fill="#382b4f"/>
+    <path d="m319 207 83-22 37 8 34-12 43 16 50-26 74 31v8H319z" fill="#241c3a"/>
+    <path d="M367 76h24m-12-12v24m219-38h15m-7-7v14m-157-8h1m120 6h1m-212 55h1" stroke="#e9b8a6" stroke-width="1.6" stroke-linecap="round" opacity=".8"/>
+  </g>
+  <g font-family="system-ui, sans-serif">
+    <text x="27" y="47" fill="#ffc99f" font-size="14" font-weight="700" letter-spacing="1.5">02 / RPG DE NAVEGADOR</text>
+    <text x="25" y="97" fill="#fff7f3" font-size="39" font-weight="750">Kurokage</text>
+    <text x="27" y="133" fill="#e0cfe9" font-size="17">Personagem, treino e combate</text>
+    <path d="M27 164h28m7 0h11m7 0h4" stroke="#f2a787" stroke-width="3" stroke-linecap="round"/>
+  </g>
+</svg>
