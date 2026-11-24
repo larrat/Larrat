@@ -1,75 +1,33 @@
-<div align="center">
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&duration=3000&pause=1000&color=7AA2F7&center=true&vCenter=true&width=650&lines=Ol%C3%A1%2C+eu+sou+o+Lucas+Larrat+%F0%9F%91%8B;Software+Developer+%26+Systems+Engineer;Solu%C3%A7%C3%B5es+Comerciais%2C+Web+%26+ERP" alt="Typing SVG" />
-  </a>
-</div>
+# Lucas Larrat
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=Larrat&color=7aa2f7&style=for-the-badge&label=VISITAS" alt="Profile Views" />
-  <a href="https://linkedin.com/in/lucas-larrat" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-1a1b26?style=for-the-badge&logo=linkedin&logoColor=7aa2f7" alt="LinkedIn" />
-  </a>
-  <a href="mailto:lucaslarrat@gmail.com">
-    <img src="https://img.shields.io/badge/E--mail-1a1b26?style=for-the-badge&logo=gmail&logoColor=f7768e" alt="Email" />
-  </a>
-</p>
+Desenvolvo aplicações web com foco em regras de negócio, integrações e experiência de uso. Gosto de trabalhar em problemas em que uma ação precisa manter várias partes do sistema em sincronia: da entrada de uma nota fiscal ao estoque e ao financeiro, ou de um combate ao progresso de um personagem.
 
----
+[LinkedIn](https://linkedin.com/in/lucas-larrat) · [E-mail](mailto:lucaslarrat@gmail.com)
 
-### 👨‍💻 Sobre Mim
+## Projetos em destaque
 
-Desenvolvedor de software e engenheiro de sistemas focado em transformar regras de negócio complexas em aplicações eficientes, escaláveis e fáceis de usar.
+### Nexus Industrial · Sistema Comercial
 
-- 🔭 **Foco atual:** Desenvolvimento Full Stack, arquitetura de bancos de dados e integrações corporativas/ERP.
-- ⚙️ **No dia a dia:** Construindo plataformas web modernas, APIs de alta performance e automações comerciais.
-- 💡 **Filosofia:** Código limpo, dados bem estruturados e foco total na experiência do usuário final.
+![Diagrama do Nexus: da nota fiscal em XML à atualização do estoque e do contas a pagar.](assets/nexus-industrial.svg)
 
----
+**Problema:** fazer o estoque e o financeiro acompanharem a operação da loja, sem depender de lançamentos duplicados.
 
-### 🚀 Projetos em Destaque
+**Decisão:** integrar a importação do XML da NF-e ao movimento de estoque e à criação do lançamento em contas a pagar. No fluxo de venda, o cancelamento reverte estoque e recebíveis na mesma transação.
 
-| Projeto | Descrição | Stack Principal |
-| :--- | :--- | :--- |
-| **[Sistema Comercial](https://github.com/Larrat/sistema_comercial)** | Plataforma completa para gestão comercial, controle de vendas, estoque e fluxos financeiros. | `React` • `Node.js` • `SQL` |
-| **Integrações & Automação ERP** | Rotinas customizadas, relatórios gerenciais e conectores de dados para ambientes corporativos. | `Oracle` • `Python` • `Delphi` |
-| **APIs & Web Apps** | Aplicações web responsivas com autenticação segura, deploy contínuo e bancos em nuvem. | `JavaScript` • `Supabase` • `Vercel` |
+[Repositório](https://github.com/larrat/sistema_comercial) · [Arquitetura dos fluxos de ERP](https://github.com/larrat/sistema_comercial/blob/main/docs/status/FASE_ERP_RELATORIO.md)
 
----
+### Kurokage · GAME_NT
 
-### 🛠️ Stack Tecnológica
+![Ilustração do Kurokage: uma lua alaranjada acima de picos de montanha.](assets/kurokage.svg)
 
-<div align="center">
+**Problema:** manter o progresso de um RPG de navegador consistente quando personagens treinam, lutam e recebem recompensas.
 
-#### **Linguagens & Backend**
-![JavaScript](https://img.shields.io/badge/JavaScript-1a1b26?style=for-the-badge&logo=javascript&logoColor=e0af68)
-![Node.js](https://img.shields.io/badge/Node.js-1a1b26?style=for-the-badge&logo=nodedotjs&logoColor=9ece6a)
-![Python](https://img.shields.io/badge/Python-1a1b26?style=for-the-badge&logo=python&logoColor=7aa2f7)
-![C++](https://img.shields.io/badge/C%2B%2B-1a1b26?style=for-the-badge&logo=c%2B%2B&logoColor=7dcfff)
+**Decisão:** validar regras importantes de combate e economia no servidor e separar, no acompanhamento do projeto, o que foi implementado do que foi homologado no jogo. Raids verificadas e reset VIP ficam desabilitados até a validação em homologação, conforme o README do projeto.
 
-#### **Frontend & UI**
-![React](https://img.shields.io/badge/React-1a1b26?style=for-the-badge&logo=react&logoColor=7dcfff)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-1a1b26?style=for-the-badge&logo=tailwind-css&logoColor=7dcfff)
-![HTML5](https://img.shields.io/badge/HTML5-1a1b26?style=for-the-badge&logo=html5&logoColor=ff9e64)
-![CSS3](https://img.shields.io/badge/CSS3-1a1b26?style=for-the-badge&logo=css3&logoColor=7aa2f7)
+[Repositório](https://github.com/larrat/game_nt) · [Estado e critérios de homologação](https://github.com/larrat/game_nt/blob/master/docs/STATUS-DO-PROJETO.md)
 
-#### **Banco de Dados, Cloud & Ferramentas**
-![Oracle](https://img.shields.io/badge/Oracle_DB-1a1b26?style=for-the-badge&logo=oracle&logoColor=f7768e)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-1a1b26?style=for-the-badge&logo=postgresql&logoColor=7aa2f7)
-![Supabase](https://img.shields.io/badge/Supabase-1a1b26?style=for-the-badge&logo=supabase&logoColor=9ece6a)
-![Vercel](https://img.shields.io/badge/Vercel-1a1b26?style=for-the-badge&logo=vercel&logoColor=c0caf5)
-![Git](https://img.shields.io/badge/Git-1a1b26?style=for-the-badge&logo=git&logoColor=ff9e64)
+## Ferramentas e projetos anteriores
 
-</div>
+Trabalho com React, JavaScript/TypeScript, PostgreSQL e Supabase. Também tenho experiência com integrações e automação de ERP.
 
----
-
-### 📊 Métricas & Atividade
-
-<div align="center">
-  <img height="175" src="https://github-readme-stats.vercel.app/api?username=Larrat&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&bg_color=1a1b26&title_color=7aa2f7&icon_color=bb9af7&text_color=c0caf5" />
-  <img height="175" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Larrat&layout=compact&theme=tokyonight&hide_border=true&bg_color=1a1b26&title_color=7aa2f7&text_color=c0caf5" />
-</div>
-
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Larrat&theme=tokyonight&hide_border=true&background=1a1b26&ring=7aa2f7&fire=bb9af7&currStreakLabel=7aa2f7" />
-</div>
+[Menu Digital](https://github.com/larrat/Menu-Digital) · [BusGo](https://github.com/larrat/BusGo) · [Odonto](https://github.com/larrat/Odonto)
